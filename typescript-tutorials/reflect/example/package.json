@@ -1,0 +1,17 @@
+{
+  "name": "reflect",
+  "version": "1.0.0",
+  "description": "Learn how to use Reflect in typescript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/main.js"
+  },
+  "author": "Linus Peng",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "reflect-metadata": "^0.1.13"
+  }
+}
