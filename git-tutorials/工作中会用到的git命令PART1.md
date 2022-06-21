@@ -91,6 +91,14 @@ git push --set-upstream origin <branch-name> # 如果当前分支为新建立的
   git reset —hard <commit-hash> # 把当前branch的头部指向给定的 commit 但不会保留消失的 commit 的文件变化
   ```
 
+回退文件到某个commit (3种方法)
+
+  ```bash
+  git checkout <commit-hash> -- <file1> <file2>
+  git checkout <commit-hash/branch>~<n> -- <file1> <file2>
+  git restore --source <commit-hash/branch>~<n> <file1> <file2>
+  ```
+
 重新 push 到远程仓库
 
 ```bash
